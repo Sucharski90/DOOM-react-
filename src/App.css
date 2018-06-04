@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.Header {
+  color: #ce362c;
+  background-color: black;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  height: 10%;
+  font-family: 'Anton', sans-serif;
+  
+}
+
+#head:hover {
+  color: white;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.Hero {
+  color: red;
+  background-image: url('../src/Images/doom1.jpeg');
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+

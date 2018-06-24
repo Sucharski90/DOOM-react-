@@ -36,7 +36,7 @@ h1 {
   height: 100vh;
   padding: 0px 10px;
 }
-.sidenav {
+#mySidenav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -49,7 +49,7 @@ h1 {
   padding-top: 60px;
 }
 
-.sidenav a {
+#mySidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -58,14 +58,14 @@ h1 {
   transition: 0.3s;
 }
 
-.sidenav a:hover {
+#mySidenav a:hover {
   color: #f1f1f1;
 }
 span {
   font-size:30px;
   cursor:pointer;
 }
-.sidenav .closebtn {
+#mySidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;

@@ -7,15 +7,15 @@ class Sidenav extends Component {
   handleOpen = () => {
       //setState should go here
       this.setState({
-          document.querySelector("#mySidenav").style.width = "250px"
+        this.getElementById('mySidenav').style.width = "250px"
         })
   }
-  handleClose = () => {
-      //setState should go here
-      this.setState({
-        document.querySelector("#mySidenav").style.width = "0px"
-      })
-  }
+//   handleClose = () => {
+//       //setState should go here
+//       this.setState({
+//         document.querySelector("#mySidenav").style.width = "0px"
+//       })
+//   }
   render() {
     let isOpen = this.state.isOpen ? ( <Hero /> : '')
     return (

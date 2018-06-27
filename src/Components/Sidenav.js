@@ -5,31 +5,51 @@ class Sidenav extends Component {
   	isOpen: false,
   }
   handleOpen = () => {
-      //setState should go here
+    if(this.state.isOpen===true){
       this.setState({
-        this.getElementById('mySidenav').style.width = "250px"
-        })
-  }
-//   handleClose = () => {
-//       //setState should go here
-//       this.setState({
-//         document.querySelector("#mySidenav").style.width = "0px"
-//       })
-//   }
+        isOpen : false
+      })
+    }else{
+      this.setState({
+        isOpen : true
+      })
+    }
+  } 
+
+
   render() {
-    let isOpen = this.state.isOpen ? ( <Hero /> : '')
-    return (
-      <div className="Sidenav">
-     
-      <div id="mySidenav">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-      </div>
-  </div>
+    if (this.state.isOpen) {
+        return (
+            <div className="Sidenav">
+            <button onClick={this.handleOpen}>Click Me</button>
+         
+          <div id="mySidenav">
+         {/* <a href="#">About</a>
+         <a href="#">Services</a>
+         <a href="#">Clients</a>
+         <a href="#">Contact</a> */}
+       </div>
+            
+          </div>
+        );
+      } else {
+        return (
+          <div>
+            <button onClick={this.handleOpen}>Click Me</button>
+          </div>
+        );
+      }
+    }
+//    
+//       <div id="mySidenav">
+//         <a href="#">About</a>
+//         <a href="#">Services</a>
+//         <a href="#">Clients</a>
+//         <a href="#">Contact</a>
+//       </div>
+//   </div>
       
-    );
-  }
+//     );
+//   }
 }
 export default Sidenav;

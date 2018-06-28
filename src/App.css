@@ -32,7 +32,6 @@ h1 {
   min-height: 100%;
   background-position: center;
   background-size: cover;
-  
   height: 65vh;
   padding: 0px 10px;
 }
@@ -52,7 +51,7 @@ h1 {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: rgb(167, 10, 10);
   display: block;
   transition: 0.3s;
 }
@@ -61,7 +60,6 @@ h1 {
 }
 .Sidenavcl button {
   background-color: transparent;
-  
   position: absolute;
     top: 0;
     font-size: 35px;
@@ -71,10 +69,30 @@ h1 {
   background-color: transparent;
   position: absolute;
   top: 0;
-  
   font-size: 36px;
   margin-left: 20px;
 }
 .Ogdoom {
   margin-left: 179px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+  color: red;
+  
+}
+.Ogdoom p {
+  padding: 10px;
+  border: 25px solid green;
+}
+#original-cover {
+  background-image: url('../src/Images/Doom1993.jpeg');
+  /* display: flex;
+  justify-content: center !important;
+  height: 20vh;
+  width: 50%;
+  background-size: cover; */
+  
+  
+  
 }

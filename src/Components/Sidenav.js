@@ -25,10 +25,10 @@ class Sidenav extends Component {
 
           <div id="mySidenav">
               
-         <a href="#">Games</a>
-         <a href="#">Weapons</a>
-         <a href="#">Enemies</a>
-         <a href="#">Power Ups</a>
+         <a href="#games">Games</a>
+         <a href="#games">Weapons</a>
+         <a href="#games">Enemies</a>
+         <a href="#games">Power Ups</a>
        </div>
             
           </div>
@@ -36,7 +36,7 @@ class Sidenav extends Component {
       } else {
         return (
           <div className="Sidenavcl">
-            <button onClick={this.handleOpen} >&#9776;OPEN</button>
+            <button onClick={this.handleOpen} >&#9776;</button>
             
           </div>
         );

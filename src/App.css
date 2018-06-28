@@ -32,8 +32,8 @@ h1 {
   min-height: 100%;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
+  
+  height: 65vh;
   padding: 0px 10px;
 }
 .Sidenav {
@@ -59,20 +59,21 @@ h1 {
 #mySidenav a:hover {
   color: #f1f1f1;
 }
-.Sidenavcl button{
-  display: flex;
-  flex: start;
+.Sidenavcl button {
+  background-color: transparent;
+  
   position: absolute;
     top: 0;
     font-size: 35px;
     margin-left: 20px;
 }
 #closebtn {
+  background-color: transparent;
   position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+  top: 0;
+  
+  font-size: 36px;
+  margin-left: 20px;
 }
 .Ogdoom {
   margin-left: 179px;

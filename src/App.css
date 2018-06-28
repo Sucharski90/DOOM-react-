@@ -43,7 +43,7 @@ h1 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: transparent;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -59,21 +59,20 @@ h1 {
 #mySidenav a:hover {
   color: #f1f1f1;
 }
-.Sidenavcl {
+.Sidenavcl button{
   display: flex;
   flex: start;
+  position: absolute;
+    top: 0;
+    font-size: 35px;
+    margin-left: 20px;
+}
+#closebtn {
   position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
-#mySidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
 }
 .Ogdoom {
   margin-left: 179px;

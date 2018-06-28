@@ -21,14 +21,14 @@ class Sidenav extends Component {
     if (this.state.isOpen) {
         return (
             <div className="Sidenav">
-            <button onClick={this.handleOpen}>&#9776;</button>
+            <button onClick={this.handleOpen} id="closebtn">&times;</button>
 
           <div id="mySidenav">
               
-         <a href="#">About</a>
-         <a href="#">Services</a>
-         <a href="#">Clients</a>
-         <a href="#">Contact</a>
+         <a href="#">Games</a>
+         <a href="#">Weapons</a>
+         <a href="#">Enemies</a>
+         <a href="#">Power Ups</a>
        </div>
             
           </div>
@@ -36,7 +36,7 @@ class Sidenav extends Component {
       } else {
         return (
           <div className="Sidenavcl">
-            <button onClick={this.handleOpen} >&#9776;</button>
+            <button onClick={this.handleOpen} >&#9776;OPEN</button>
             
           </div>
         );

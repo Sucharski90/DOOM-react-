@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import './App.css';
 import Ogdoom from './Components/Ogdoom';
 import Sidenav from './Components/Sidenav';  
+// import Games from './Components/Games';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Sidenav />
         <Hero />
         <Ogdoom />
+        {/* <Games /> */}
 
       </div>
     );

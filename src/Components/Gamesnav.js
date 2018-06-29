@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-class Games extends Component {
+class Gamesnav extends Component {
   
   render() {
     return (
-      <div className="Games">
+      <div className="Gamesnav">
         <h1>hi</h1>
         <button >DOOM</button>
         
@@ -12,4 +12,4 @@ class Games extends Component {
     );
   }
 }
-    export default Games;
+    export default Gamesnav;

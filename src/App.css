@@ -10,7 +10,8 @@
   display: flex;
   height: 10%;
   font-family: 'Anton', sans-serif;
-  width: 100vp;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #head:hover {
@@ -19,7 +20,7 @@
 
 h1 {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Anton', sans-serif;
   display: flex;
   justify-content: center;
@@ -36,8 +37,10 @@ h1 {
   background-size: cover;
   height: 75vh;
   width: 100%;
-  padding: 0px 10px;
+  padding: 0px 0px;
+  margin: 0 auto;
 }
+
 .Sidenav {
   height: 100%;
   width: 250px;
@@ -49,6 +52,7 @@ h1 {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  margin: 0 auto;
 }
 #mySidenav a {
   padding: 8px 8px 8px 32px;
@@ -64,37 +68,39 @@ h1 {
 .Sidenavcl button {
   background-color: transparent;
   position: absolute;
-    top: 0;
-    font-size: 35px;
-    margin-left: 20px;
+  top: 0;
+  font-size: 35px;
+  margin: 0 auto;
+  padding: 0;
 }
 #closebtn {
   background-color:  transparent;
   position: absolute;
   top: 0;
   font-size: 36px;
-  margin-left: 20px;
+  margin: 0 auto;
 }
 .Ogdoom {
+  padding-top: 35px;
   margin-left: 179px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: flex-end;
+  margin-right: 25px;
+  display: block;
   color: rgb(167, 10, 10);
-  
+}
+.Ogdoom h1 {
+  padding-bottom: 10px;
+  font-size: 50px;
 }
 .Ogdoom p {
-  padding: 10px;
   font-family: 'Source Code Pro', monospace;
+  line-height: 25px;
+  font-size: 16px;
 }
 #original-cover {
   background-image: url('../src/Images/Doom1993.jpeg');
   height: 45vh;
   width: 30vh;
   background-size: cover;
-  margin: 0 auto;
-  vertical-align: center;
-  
-  
-}
+  margin: 10px;
+  float: left;
+} 

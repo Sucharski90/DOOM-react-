@@ -15,7 +15,7 @@ class App extends Component {
         <Hero />
         <Ogdoom />
         <Games />
-
+        
       </div>
     );
   }

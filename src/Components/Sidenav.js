@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
+import Options from './Options';
      
 class Sidenav extends Component {
   state = {
-  	isOpen: false,
+    isOpen: false,
+    options: {
+      games: ['test', 'test2', 'test3']
+    }
   }
   handleOpen = () => {
-    if(this.state.isOpen===true){
+    if(this.state.isOpen){
       this.setState({
         isOpen : false
       })
@@ -15,6 +19,25 @@ class Sidenav extends Component {
       })
     }
   } 
+  handleOptionCLick = text => {
+    return (
+      <Options games={this.state.options[text.toLowerCase()]} />
+    )
+  }
+  showGames = () => {
+    console.log('DOOM 3')
+  }
+  showWeapons = () => {
+    console.log('Shotgun')
+  }
+  showEnemies = () => {
+    console.log('Cyber Deamon')
+  }
+  showPowerUps = () => {
+    console.log('Invincibility')
+  }
+  
+
   render() {
     if (this.state.isOpen) {
         return (
@@ -22,10 +45,12 @@ class Sidenav extends Component {
             <button onClick={this.handleOpen} id="closebtn">&times;</button>
 
           <div id="mySidenav">
-            <a href="#games">Games</a>
-            <a href="#games">Weapons</a>
-            <a href="#games">Enemies</a>
-            <a href="#games">Power Ups</a>
+            
+            <p onClick={e => this.handleOptionCLick(e.target.innerText)}>Games</p>
+            <p onClick={this.showWeapons}>Weapons</p>
+            <p onClick={this.showEnemies}>Enemies</p>
+            <p onClick={this.showPowerUps}>Power Ups</p>
+            
           </div>
             
           </div>

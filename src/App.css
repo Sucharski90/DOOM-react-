@@ -18,7 +18,7 @@
   color: white;
 }
 
-h1 {
+#head {
   padding: 0;
   margin: 0 auto;
   font-family: 'Anton', sans-serif;
@@ -43,18 +43,18 @@ h1 {
 
 .Sidenav {
   height: 100%;
-  width: 250px;
+  width: 160px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: transparent;
+  background-color: rgb(28,28,28);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
   margin: 0 auto;
 }
-#mySidenav a {
+#mySidenav p {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -62,7 +62,7 @@ h1 {
   display: block;
   transition: 0.3s;
 }
-#mySidenav a:hover {
+#mySidenav p:hover {
   color: #f1f1f1;
 }
 .Sidenavcl button {
@@ -73,12 +73,20 @@ h1 {
   margin: 0 auto;
   padding: 0;
 }
+
+.Sidenavcl button:focus {
+  outline: 0;
+}
+
 #closebtn {
   background-color:  transparent;
   position: absolute;
   top: 0;
   font-size: 36px;
   margin: 0 auto;
+}
+#closebtn:focus {
+  outline: 0;
 }
 .Ogdoom {
   padding-top: 35px;
@@ -88,6 +96,11 @@ h1 {
   color: rgb(167, 10, 10);
 }
 .Ogdoom h1 {
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  justify-content: center;
   padding-bottom: 10px;
   font-size: 50px;
 }
@@ -104,3 +117,7 @@ h1 {
   margin: 10px;
   float: left;
 } 
+.Games {
+  display: flex;
+  justify-content: center;
+}

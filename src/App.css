@@ -29,6 +29,7 @@
 .Hero {
   color: red;
   background-image: url('../src/Images/doom1.jpeg');
+  background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
   min-height: 100%;
@@ -84,18 +85,47 @@
   top: 0;
   font-size: 36px;
   margin: 0 auto;
+  color: white;
 }
 #closebtn:focus {
   outline: 0;
 }
-.Ogdoom {
+.Ogdoom  {
   padding-top: 35px;
   margin-left: 179px;
   margin-right: 25px;
   display: block;
   color: rgb(167, 10, 10);
 }
-.Ogdoom h1 {
+.Ogdoom  {
+  padding-top: 35px;
+  margin-left: 179px;
+  margin-right: 25px;
+  display: block;
+  color: rgb(167, 10, 10);
+}
+.Weapons  {
+  padding-top: 35px;
+  margin-left: 179px;
+  margin-right: 25px;
+  display: block;
+  color: rgb(167, 10, 10);
+}
+.Enemies {
+  padding-top: 35px;
+  margin-left: 179px;
+  margin-right: 25px;
+  display: block;
+  color: rgb(167, 10, 10);
+}
+.Powerups  {
+  padding-top: 35px;
+  margin-left: 179px;
+  margin-right: 25px;
+  display: block;
+  color: rgb(167, 10, 10);
+}
+ #games {
   padding: 0;
   margin: 0 auto;
   font-family: 'Anton', sans-serif;
@@ -117,7 +147,27 @@ p {
   margin: 10px;
   float: left;
 } 
-.Games {
-  display: flex;
-  justify-content: center;
+#weapon-image {
+  background-image: url('../src/Images/DoomGuns.jpeg');
+  height: 43vh;
+  width: 28vw;
+  background-size: cover;
+  margin: 10px;
+  float: left;
+}
+#cyberdemon {
+  background-image: url('../src/Images/CyberDemon.jpeg');
+  height: 45vh;
+  width: 30vw;
+  background-size: cover;
+  margin: 10px;
+  float: left;
+}
+#power-ups {
+  background-image: url('../src/Images/doomPowerup.jpeg');
+  height: 45vh;
+  width: 30vw;
+  background-size: cover;
+  margin: 10px;
+  float: left;
 }

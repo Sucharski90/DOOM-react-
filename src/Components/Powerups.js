@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 
-class Weapons extends Component {
+class Powerups extends Component {
   render() {
     return (
-      <div className="Weapons">
+      <div className="Powerups">
         <h1 id="games">DOOM (1993)</h1>
         <div id="original-cover"></div>
         <p>The player takes the role of an unnamed space marine ("Doomguy") who has been punitively posted to Mars after assaulting a superior officer, who ordered his unit to fire on civilians. The Martian space marine base acts as security for multi-planetary conglomerate Union Aerospace Corporation's radioactive waste facilities, which are used by the military to perform secret experiments with teleportation by creating gateways between the two moons of Mars, Phobos and Deimos. Mars is considered by space marines to be the dullest assignment imaginable. This all changes when the experiments go horribly wrong. Computer systems on Phobos malfunction, Deimos disappears entirely, and "something fraggin' evil" starts pouring out of the gateways, killing or possessing all personnel. Responding to a frantic distress call from the overrun scientists, the Martian marine unit is quickly sent by ship from Mars to Phobos to investigate, where the player character is left to guard the perimeter with only a pistol while the rest of the group proceeds inside. The marine hears assorted radio messages, gunfire, and screams, followed by silence: "Seems your buddies are dead." The player cannot navigate the ship off of Phobos alone and sees that the only way out is to fight through the Phobos complex.<br />
@@ -16,4 +16,4 @@ As the last man standing, the player character's mission is to fight through the
   }
 }
 
-export default Weapons;
+export default Powerups;

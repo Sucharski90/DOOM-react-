@@ -4,7 +4,9 @@ import Hero from './Components/Hero';
 import './App.css';
 import Ogdoom from './Components/Ogdoom';
 import Sidenav from './Components/Sidenav';  
-// import Games from './Components/Games';
+import Weapons from './Components/Weapons';
+import Enemies from './Components/Enemies';
+import Powerups from './Components/Powerups';
 
 class App extends Component {
   render() {
@@ -14,7 +16,9 @@ class App extends Component {
         <Sidenav />
         <Hero />
         <Ogdoom />
-        
+        <Weapons />
+        <Enemies />
+        <Powerups />
         
       </div>
     );

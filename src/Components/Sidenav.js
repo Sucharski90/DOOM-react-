@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Options from './Options';
+// import Options from './Options';
      
 class Sidenav extends Component {
   state = {
@@ -19,11 +19,7 @@ class Sidenav extends Component {
       })
     }
   } 
-  handleOptionCLick = text => {
-    return (
-      <Options games={this.state.options[text.toLowerCase()]} />
-    )
-  }
+ 
   showGames = () => {
     console.log('DOOM 3')
   }
@@ -46,7 +42,7 @@ class Sidenav extends Component {
 
           <div id="mySidenav">
             
-            <p onClick={e => this.handleOptionCLick(e.target.innerText)}>Games</p>
+            <p onClick={this.showGames}>Games</p>
             <p onClick={this.showWeapons}>Weapons</p>
             <p onClick={this.showEnemies}>Enemies</p>
             <p onClick={this.showPowerUps}>Power Ups</p>

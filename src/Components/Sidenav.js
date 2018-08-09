@@ -20,20 +20,6 @@ class Sidenav extends Component {
     }
   } 
  
-  showGames = () => {
-    console.log('DOOM 3')
-  }
-  showWeapons = () => {
-    console.log('Shotgun')
-  }
-  showEnemies = () => {
-    console.log('Cyber Deamon')
-  }
-  showPowerUps = () => {
-    console.log('Invincibility')
-  }
-  
-
   render() {
     if (this.state.isOpen) {
         return (
@@ -42,13 +28,13 @@ class Sidenav extends Component {
 
           <div id="mySidenav">
             
-            <p onClick={this.showGames}>Games</p>
-            <p onClick={this.showWeapons}>Weapons</p>
-            <p onClick={this.showEnemies}>Enemies</p>
-            <p onClick={this.showPowerUps}>Power Ups</p>
+            <a href="#original-cover">Story Intro</a>
+            <a href="#weapon-image">Tools</a>
+            <a href="#cyberdemon">Enemies</a>
+            <a href="#power-ups">Power Ups</a>
+            
             
           </div>
-            
           </div>
         );
       } else {

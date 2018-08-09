@@ -55,7 +55,7 @@
   padding-top: 60px;
   margin: 0 auto;
 }
-#mySidenav p {
+#mySidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -63,7 +63,7 @@
   display: block;
   transition: 0.3s;
 }
-#mySidenav p:hover {
+#mySidenav a:hover {
   color: #f1f1f1;
 }
 .Sidenavcl button {
@@ -119,7 +119,7 @@
   color: rgb(167, 10, 10);
 }
 .Powerups  {
-  padding-top: 35px;
+  padding-top: 10%;
   margin-left: 179px;
   margin-right: 25px;
   display: block;
@@ -157,17 +157,21 @@ p {
 }
 #cyberdemon {
   background-image: url('../src/Images/CyberDemon.jpeg');
-  height: 45vh;
-  width: 30vw;
+  height: 40vh;
+  width: 25vw;
   background-size: cover;
   margin: 10px;
   float: left;
 }
 #power-ups {
   background-image: url('../src/Images/doomPowerup.jpeg');
-  height: 45vh;
-  width: 30vw;
+  height: 40vh;
+  width: 25vw;
   background-size: cover;
   margin: 10px;
   float: left;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+
 }

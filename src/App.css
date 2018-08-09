@@ -171,7 +171,39 @@ p {
   margin: 10px;
   float: left;
 }
-
+.Footer {
+  margin-top: 10%; 
+  padding-top: 3%;
+  background-color: rgb(167, 10, 10);
+}
 @media (min-width: 0px) and (max-width: 767px) {
-
+ 
+  .Sidenavcl button {
+    display: none;
+  }
+  .Ogdoom {
+    padding: 7%;
+    margin: 0 auto;
+  }
+  .Weapons {
+    padding: 7%;
+    margin: 0 auto;
+  }
+  .Enemies {
+    padding: 7%;
+    margin: 0 auto;
+  }
+  .Powerups {
+    padding: 7%;
+    margin: 0 auto;
+  }
+  #weapon-image {
+    width: 80vw;
+  }
+  #cyberdemon {
+    width: 80vw;
+  }
+  #power-ups {
+    width: 80vw;
+  }
 }

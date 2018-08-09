@@ -7,6 +7,7 @@ import Sidenav from './Components/Sidenav';
 import Weapons from './Components/Weapons';
 import Enemies from './Components/Enemies';
 import Powerups from './Components/Powerups';
+import Footer from './Components/Footer';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <Weapons />
         <Enemies />
         <Powerups />
+        <Footer />
         
       </div>
     );

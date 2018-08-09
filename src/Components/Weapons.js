@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Weapons extends Component {
   render() {
     return (
-      <div className="Weapons">
+      <div className="Weapons" id="weapon">
         <h1 id="games">WEAPONS</h1>
         <div id="weapon-image"></div>
         <p>A weapon is used by the player to attack opponents. It is displayed onscreen as part of the body of the player character to simulate a first person perspective. In Doom, it is the main aspect of the game action.

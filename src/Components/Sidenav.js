@@ -28,10 +28,10 @@ class Sidenav extends Component {
 
           <div id="mySidenav">
             
-            <a href="#original-cover">Story Intro</a>
-            <a href="#weapon-image">Tools</a>
-            <a href="#cyberdemon">Enemies</a>
-            <a href="#power-ups">Power Ups</a>
+            <a href="#original">Story Intro</a>
+            <a href="#weapon">Tools</a>
+            <a href="#cyber">Enemies</a>
+            <a href="#power">Power Ups</a>
             
             
           </div>
